@@ -81,20 +81,20 @@ Your application should support at least the following status codes.
 
 
 ### Postman Test Collection
-It must demonstrate create, read, update and delete operations for all non-user entities.
-It must demonstrate read operations for all collections of non-user entities.
-It must demonstrate creating and deleting relationships between non-user entities.
-There must be at least one test per required status code showing things working as intended.
-It must demonstrate user accounts working as intended
-Show that entities created by one user can be read, updated and deleted by that user.
-Show that entities created by one user cannot be read, updated and deleted by another user.
-Show that requests to protected resources are rejected if the JWT is invalid.
-Show that requests to protected resources are rejected if the JWT is missing.
-The tests must verify at least the response code. It is not required that the tests verify the response body. However, the response body must match your API spec.
-In your spec you need to specify valid values for the properties in the request body. However, your application and your tests don't need to cover input validation. You can assume that the input will be valid per your specification.
-A possible Postman test to show that one user can't read, edit or delete an entity created by another user is the following;
-Call your REST API to create an entity using jwt1 and then have a test that shows that attempts to read, edit and delete that entity using jwt2 are rejected.
-A possible Postman test to verify the endpoints that create and remove relationships is as follows
-Show the resources before the relationship is created (or removed)
-Create (or remove) the relationship
-Show the resources after the relationship has been created (or removed)
+1. It must demonstrate create, read, update and delete operations for all non-user entities.
+2. It must demonstrate read operations for all collections of non-user entities.
+3. It must demonstrate creating and deleting relationships between non-user entities.
+4. There must be at least one test per required status code showing things working as intended.
+5. It must demonstrate user accounts working as intended
+    - Show that entities created by one user can be read, updated and deleted by that user.
+    - Show that entities created by one user cannot be read, updated and deleted by another user.
+    - Show that requests to protected resources are rejected if the JWT is invalid.
+    - Show that requests to protected resources are rejected if the JWT is missing.
+6. The tests must verify at least the response code. It is not required that the tests verify the response body. However, the response body must match your API spec.
+7. In your spec you need to specify valid values for the properties in the request body. However, your application and your tests don't need to cover input validation. You can assume that the input will be valid per your specification.
+8. A possible Postman test to show that one user can't read, edit or delete an entity created by another user is the following;
+    - Call your REST API to create an entity using jwt1 and then have a test that shows that attempts to read, edit and delete that entity using jwt2 are rejected.
+9. A possible Postman test to verify the endpoints that create and remove relationships is as follows
+    - Show the resources before the relationship is created (or removed)
+    - Create (or remove) the relationship
+    - Show the resources after the relationship has been created (or removed)
