@@ -1,4 +1,6 @@
-# Cloud Application Development Final/Portfolio Project
+# Cloud Application Development Final/Portfolio Project (November 2021)
+This is the final/portfolio assignment from my Cloud Application Development Class. I received a perfect score on it.
+
 ## Assignment Instructions:
 ### Purpose
 Note: this final project is the "Portfolio Assignment" for the course. This means that you are allowed to post the entirety of the assignment publicly (e.g. Github, personal website, etc.). You can use this as an opportunity to showcase your work to potential employers. 
