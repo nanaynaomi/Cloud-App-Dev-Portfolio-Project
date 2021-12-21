@@ -1,0 +1,13 @@
+
+body {
+    background: #ffcece;
+    overflow-wrap: anywhere;
+}
+
+div {
+    background: #d3ffe9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px;
+}
