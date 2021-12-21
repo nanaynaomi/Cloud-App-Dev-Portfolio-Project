@@ -1,5 +1,5 @@
 # Cloud Application Development Final/Portfolio Project (November 2021)
-This is the final/portfolio assignment from my Cloud Application Development Class. I received a perfect score on it.
+This is the final/portfolio assignment from my Cloud Application Development Class (written in November 2021). I received a perfect score on it.
 
 ## Assignment Instructions:
 ### Purpose
