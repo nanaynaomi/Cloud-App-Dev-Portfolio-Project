@@ -5,12 +5,12 @@ This is the final/portfolio assignment from my Cloud Application Development Cla
 ### Purpose
 Note: this final project is the "Portfolio Assignment" for the course. This means that you are allowed to post the entirety of the assignment publicly (e.g. Github, personal website, etc.). You can use this as an opportunity to showcase your work to potential employers. 
 
-In this assignment you will pull together all of the pieces you have worked on up to this point. You will need to implement a REST API that uses proper resource based URLs, pagination and status codes. In addition you will need to implement some sort of system for creating users and for authorization. You will deploy your application on Google Cloud Platform.
+In this assignment you will pull together all of the pieces you have worked on up to this point. You will need to **implement a REST API that uses proper resource based URLs, pagination and status codes.** In addition you will need to implement some sort of system for creating users and for authorization. You will deploy your application on Google Cloud Platform.
 
 - The default is that you must use
-  - Datastore to store your data, and
-  - Either Node.js or Python 3, and
-  - Google App Engine to deploy your project
+  - **Datastore** to store your data, and
+  - Either **Node.js** or Python 3, and
+  - **Google App Engine** to deploy your project
 
 ### Instructions
 Your application needs to have
